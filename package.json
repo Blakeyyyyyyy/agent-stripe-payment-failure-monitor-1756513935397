@@ -1,0 +1,18 @@
+{
+  "name": "stripe-payment-failure-monitor",
+  "version": "1.0.0",
+  "description": "Monitors Stripe for failed payments and sends Gmail alerts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^14.25.0",
+    "googleapis": "^126.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
